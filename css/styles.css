@@ -54,14 +54,21 @@ body {
         margin-right: auto;
 
     }
-    .header-container{
+    .header-container,
+    .adress{
         display: flex;
     } 
-    .header-link{
+    .logo{
         margin-right: 93px;
+    }
+    .header-nav{
+        margin-right: auto;
     }
     .header-list{
         display: flex;
+    }
+    .mail{
+        margin-right: 50px;
     }
     
     .mail{
@@ -73,7 +80,7 @@ letter-spacing: 0.02em;
 color:var(--header-secondary-tel-cl);
 
    }
-   .adress-phone{
+    .adress-phone{
  font-weight: 500;
 font-size: 14px;
 line-height: 16px;
