@@ -45,6 +45,7 @@ body {
         padding: 0;
         margin: 0;
     }
+     
     .container {
         width: 1200px;
         padding-left: 15px;
@@ -53,8 +54,17 @@ body {
         margin-right: auto;
 
     }
-
-   .mail{
+    .header-container{
+        display: flex;
+    } 
+    .header-link{
+        margin-right: 93px;
+    }
+    .header-list{
+        display: flex;
+    }
+    
+    .mail{
  font-weight: 500;
 font-size: 14px;
 line-height:calc(16/14);
@@ -70,8 +80,8 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #757575;
-
    }
+
    .hero{
     background-color: var(--main-bg-cl);
 }
