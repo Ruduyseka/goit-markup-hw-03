@@ -99,7 +99,8 @@ color: #757575;
 
    .hero{
     background-color: var(--main-bg-cl);
-}
+    margin-bottom: 94px;
+    }
 .main-title{
     padding: 200px 256px 280px;
     
@@ -152,7 +153,25 @@ cursor: pointer;
     gap: 30px;
     flex-basis: 270px;
     padding-top: 94px;
+    padding-bottom: 94px;
 }
+.about-our{
+        
+    font-weight: 700;
+    font-size: 36px;
+    line-height:  calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    
+    color: #212121;
+    }
+    .about-img{
+        display: flex;
+        gap: 30px;
+        padding-bottom: 94px;
+    }
 .main-button-portfolio{
     font-family:inherit;
 font-weight: 500;
@@ -277,16 +296,7 @@ color: var(--main-osob-txt-cl);
     
     color:var(--main-osob1-txt-cl);
     }
-    .about-our{
-font-weight: 700;
-font-size: 36px;
-line-height:  calc(42 / 36);
-text-align: center;
-letter-spacing: 0.03em;
 
-color: #212121;
-
-    }
     .our-team{
 font-weight: 500;
 font-size: 16px;
