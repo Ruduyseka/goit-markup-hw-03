@@ -66,6 +66,7 @@ body {
     }
     .header-list{
         display: flex;
+        gap: 50px;
     }
     .mail{
         margin-right: 50px;
