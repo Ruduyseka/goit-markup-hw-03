@@ -57,12 +57,21 @@ body {
     .header-container,
     .adress{
         display: flex;
+        align-items: center;
     } 
     .logo{
         margin-right: 93px;
+        padding-top: 24px;
+        padding-bottom: 25px;
     }
     .header-nav{
         margin-right: auto;
+    }
+   .header-link,
+   .mail,
+   .header-phone{
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
     .header-list{
         display: flex;
