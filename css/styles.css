@@ -96,14 +96,13 @@ letter-spacing: 0.02em;
 
 color: #757575;
    }
-
-   .hero{
+  .hero{
     background-color: var(--main-bg-cl);
     margin-bottom: 94px;
     }
 .main-title{
-    padding: 200px 256px 280px;
-    
+    /* padding: 200px 256px 280px; */
+   margin-bottom: 30px; 
     
     font-weight: 900;
     font-size: 44px;
@@ -117,8 +116,9 @@ color: #757575;
     color: #FFFFFF;
     }
 .main-button {
-    margin-top: 30px;
-max-width: 250px;
+display: block;
+margin: 0 auto;
+    max-width: 250px;
 min-width: 200px;
 min-height: 50px;
 padding: 8px 30px;
@@ -226,6 +226,8 @@ color: currentColor;
 }
 .list{
 list-style: none;
+padding: 0px;
+margin: 0px;
 }
 .main {
     color: #2196F3;
@@ -281,6 +283,7 @@ color: #FFFFFF;
 }
 .about-title{
      font-weight: 700;
+     margin-bottom: 10px;
     font-size: 14px;
     line-height:calc(16 / 14);
     letter-spacing: 0.03em;
@@ -331,4 +334,9 @@ color: #757575;
 }
 .footer{
     background-color: #2F303A;
+    padding-top: 60px;
+}
+  .contacts-group{
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
