@@ -364,10 +364,6 @@ color: #757575;
 
 /* Portfolio */
 
-
-.size-header-main{
-    padding-bottom: 94px;
-}
 .button{
     display: flex;
     gap: 8px;
@@ -379,3 +375,11 @@ color: #757575;
     gap: 30px;
     flex-wrap: wrap;
     padding-bottom: 94px;
+}
+.header-portfolio{
+    margin-bottom: 94px;
+}
+.images-portfolio{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
