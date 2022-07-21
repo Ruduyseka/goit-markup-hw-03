@@ -56,11 +56,12 @@ body {
     .adress{
         display: flex;
         align-items: center;
+        gap: 50px;
     } 
     .logo{
         margin-right: 93px;
         padding-top: 24px;
-        padding-bottom: 25px;
+        padding-bottom: 24px;
     }
     .header-nav{
         margin-right: auto;
@@ -75,10 +76,7 @@ body {
         display: flex;
         gap: 50px;
     }
-    .mail{
-        margin-right: 50px;
-    }
-    
+     
     .mail{
  font-weight: 500;
 font-size: 14px;
@@ -98,16 +96,16 @@ color: #757575;
    }
   .hero{
     background-color: var(--main-bg-cl);
-    margin-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     }
 
 .main-title{
     /* padding: 200px 256px 280px; */
-   padding-top: 200px;
-   padding-left: 256px;
-   padding-bottom: 280px;
-   padding-right: 256px;
-   font-weight: 900;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+    font-weight: 696;
     font-size: 44px;
     line-height:calc(60/44);
     /* or 136% */
@@ -151,6 +149,12 @@ cursor: pointer;
     clip-path: inset(50%);
     margin: -1px;
   }  
+  .list-peculiarities{
+    width: 270px;
+  }
+  .our-osobennosti{
+    padding-top: 94px;
+  }
 .our-peculiarities{
     display: flex;
     gap: 30px;
