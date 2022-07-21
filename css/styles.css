@@ -58,7 +58,7 @@ body {
         align-items: center;
         gap: 50px;
     } 
-    .logo{
+    .logo-header{
         margin-right: 93px;
         padding-top: 24px;
         padding-bottom: 24px;
@@ -160,8 +160,11 @@ cursor: pointer;
     gap: 30px;
     flex-basis: 270px;
     padding-top: 94px;
+    }
+.about{
+    padding-top: 94px;
     padding-bottom: 94px;
-}
+    }
 .about-our{
         
     font-weight: 700;
@@ -169,15 +172,26 @@ cursor: pointer;
     line-height:  calc(42 / 36);
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     
     color: #212121;
     }
+   
     .about-img{
         display: flex;
         gap: 30px;
-        padding-bottom: 94px;
+     
+    }
+    .list-our{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .logo-footer{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .footer-link:last-child{
+margin-bottom: 0;
     }
 .main-button-portfolio{
     font-family:inherit;
@@ -288,6 +302,8 @@ color: #FFFFFF;
 } 
 .team{
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .about-title{
      font-weight: 700;
@@ -343,11 +359,9 @@ color: #757575;
 .footer{
     background-color: #2F303A;
     padding-top: 60px;
-}
-  .contacts-group{
-    padding-top: 20px;
     padding-bottom: 60px;
 }
+
 /* Portfolio */
 
 
@@ -365,8 +379,3 @@ color: #757575;
     gap: 30px;
     flex-wrap: wrap;
     padding-bottom: 94px;
-
-}.img{
-    padding-bottom: 20px;
-}
-i
