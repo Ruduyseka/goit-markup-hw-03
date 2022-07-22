@@ -56,7 +56,6 @@ body {
     .adress{
         display: flex;
         align-items: center;
-        gap: 50px;
     } 
     .logo-header{
         margin-right: 93px;
@@ -69,6 +68,7 @@ body {
    .header-link,
    .mail,
    .header-phone{
+    display: block;
         padding-top: 32px;
         padding-bottom: 32px;
     }
@@ -87,6 +87,7 @@ color:var(--header-secondary-tel-cl);
 
    }
     .adress-phone{
+        gap: 50px;
  font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -101,11 +102,12 @@ color: #757575;
     }
 
 .main-title{
+    width: 696px;
     /* padding: 200px 256px 280px; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-    font-weight: 696;
+    font-weight: 900px;
     font-size: 44px;
     line-height:calc(60/44);
     /* or 136% */
@@ -180,7 +182,9 @@ cursor: pointer;
     .about-img{
         display: flex;
         gap: 30px;
-     
+        margin: 0;
+        padding-left: 0;
+         
     }
     .list-our{
         padding-top: 30px;
@@ -189,6 +193,9 @@ cursor: pointer;
     .logo-footer{
         display: block;
         margin-bottom: 20px;
+    }
+    .footer-link{
+        margin-bottom: 9px;
     }
     .footer-link:last-child{
 margin-bottom: 0;
@@ -325,6 +332,7 @@ color: var(--main-osob-txt-cl);
     }
 
     .our-team{
+        margin-bottom: 10px;
 font-weight: 500;
 font-size: 16px;
 line-height:calc(19/16);
