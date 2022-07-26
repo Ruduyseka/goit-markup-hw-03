@@ -372,6 +372,9 @@ color: #757575;
 
 /* Portfolio */
 
+.header-portfolio{
+    border: 1px solid #ececec;
+}
 .button{
     display: flex;
     gap: 8px;
@@ -380,6 +383,7 @@ color: #757575;
 }
 .main-button-portfolio,
 .secondary-button{
+    padding: 6px 22px;
     border: none;
 
 }
@@ -395,8 +399,9 @@ color: #757575;
 }
 .images-portfolio{
     padding: 20px 24px;
-    border: none;
+    border: 1px solid #eeeeee;
 }
+
 .img{
     flex-basis: calc((100%-30*3)/4);
 }
